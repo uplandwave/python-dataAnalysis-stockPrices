@@ -23,7 +23,7 @@ app.layout = html.Div(children=[
 # it simple here though to change a few style settings here.
     html.Div(children=[
         # html.Img(src='cat.png', style={'height': '50px', 'margin-right': '10px'}),
-        # html.Img(src='./images/cat2.jpg'),
+        html.Img(src='./images/cat2.jpg'),
         html.H1("Stonks Dashboard", 
                 style={'margin': '15px', 
                        'background-color': 'dogerblue' }),
